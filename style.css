@@ -12,119 +12,99 @@
     display: flex;
   }
   
-  /* Sidebar estilo */
-  .sidebar {
-    background-color: #4c3b7a;
-    width: 250px;
-    height: 100vh;
-    padding: 20px;
-    position: fixed;
-  }
-  
-  .sidebar h2 {
-    color: #fff;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .sidebar ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .sidebar ul li {
-    margin: 15px 0;
-  }
-  
-  .sidebar ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  .sidebar ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Main content estilo */
-  .main-content {
-    margin-left: 270px;
-    padding: 40px;
-    flex-grow: 1;
-  }
-  
-  .hero {
-    background-color: #6b4aa6;
-    padding: 40px;
-    text-align: center;
-    border-radius: 8px;
-  }
-  
-  .hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
-  
-  .btn {
-    background-color: #7d5aa4;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .btn:hover {
-    background-color: #9176c4;
-  }
-  
-  /* Cards */
-  .card-container {
-    display: flex;
-    gap: 20px;
-    margin-top: 20px;
-  }
-  
+  /* Estilos para a barra lateral */
+/* Estilos para a barra lateral */
+/* Estilos para a barra lateral */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #4e3b67;
+  padding-top: 20px;
+}
+
+.sidebar h2, .sidebar ul {
+  margin-left: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para o conteúdo principal */
+.main-content {
+  margin-left: 220px; /* Espaço para a barra lateral */
+  padding: 20px;
+}
+
+.hero {
+  background-color: #6d54a6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Espaçamento abaixo do hero */
+  text-align: center; /* Centraliza o texto dentro do bloco */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza os cartões */
+  gap: 20px;
+  margin-top: 20px; /* Espaço acima dos cartões */
+}
+
+.card {
+  background-color: #7d5fb2;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px; /* Define uma largura padrão para os cartões */
+  color: white;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card p {
+  line-height: 1.5;
+}
+
+.card a.btn {
+  display: inline-block;
+  background-color: #5b3b8a;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.card a.btn:hover {
+  background-color: #4a2f6e;
+}
+
+/* Estilos responsivos para dispositivos menores */
+@media (max-width: 768px) {
   .card {
-    background-color: #553a7d;
-    border-radius: 8px;
-    padding: 20px;
-    width: 30%;
+    width: 100%; /* Cartões ocupam 100% da largura da tela em dispositivos móveis */
   }
-  
-  .card h3 {
-    font-size: 24px;
-    margin-bottom: 15px;
-  }
-  
-  .card p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .card .btn {
-    background-color: #7d5aa4;
-    padding: 10px;
-  }
-  
-  .card .btn:hover {
-    background-color: #9176c4;
-  }
-  /* Estilos para o Preloader */
-#preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff; /* Cor de fundo do preloader */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999; /* Coloca o preloader acima de todo o conteúdo */
-  }
-  
+}
