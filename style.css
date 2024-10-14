@@ -108,3 +108,7 @@
     width: 100%; /* Cartões ocupam 100% da largura da tela em dispositivos móveis */
   }
 }
+
+.background-gradient {
+  background: linear-gradient(to bottom, #4b0082, #9b30ff);
+}
