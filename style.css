@@ -54,6 +54,7 @@
 }
 
 .hero {
+  background-color: #6d54a6;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px; /* Espaçamento abaixo do hero */
@@ -107,14 +108,3 @@
     width: 100%; /* Cartões ocupam 100% da largura da tela em dispositivos móveis */
   }
 }
-
-.background-gradient {
-  background: linear-gradient(to bottom, #9b30ff, #4b0082);
-}
-.background-gradient {
-  /* Fallback para navegadores que não suportam gradientes /
-  background-color: #4b0082;
-
-  / Gradiente de cima para baixo */
-  background: linear-gradient(180deg, #9b30ff, #4b0082);
-} 
