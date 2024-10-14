@@ -102,7 +102,7 @@
   background-color: #B27DFF;
 
   / Gradiente de cima para baixo */
-  background: linear-gradient(180deg, #6A0DAD, #B27DFF);
+  background: linear-gradient(180deg, #B27DFF, #6A0DAD);
 }
 
 /* Estilos responsivos para dispositivos menores */
