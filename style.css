@@ -107,3 +107,11 @@
     width: 100%; /* Cartões ocupam 100% da largura da tela em dispositivos móveis */
   }
 }
+
+.style
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(180deg, #4b0082, #9b30ff);
+    }
+
