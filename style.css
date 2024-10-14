@@ -99,10 +99,10 @@
 
 .background-gradient {
   /* Fallback para navegadores que não suportam gradientes /
-  background-color: #A54EDB;
+  background-color: #B27DFF;
 
   / Gradiente de cima para baixo */
-  background: linear-gradient(180deg, #5C3D8E, #A54EDB);
+  background: linear-gradient(180deg, #6A0DAD, #B27DFF);
 }
 
 /* Estilos responsivos para dispositivos menores */
